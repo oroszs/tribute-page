@@ -1,11 +1,33 @@
-*{
-    font-size: 25pt;
+#main {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    font-size: 18pt;
+    color: black;
+    text-align: center;
+}
+#title {
+    position: relative;
 }
 #img-div{
-    width: 90vw;
-    height: 90vh;
+    font-size: 16pt;
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    overflow-y: hidden;
 }
 #image {
-    width: 500px;
+    flex: none;
+    max-width: 75%;
     height: auto;
+}
+#img-caption{
+    position: relative;
+    flex: none;
 }

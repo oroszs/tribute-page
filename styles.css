@@ -48,5 +48,8 @@
     align-items: center;
 }
 #tribute-link{
+    color: black;
+}
+#tribute-span {
     padding: 10px;
 }
